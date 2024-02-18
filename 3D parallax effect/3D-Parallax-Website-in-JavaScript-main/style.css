@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
+ *, 
+ *::after,
+ *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: "Poppins", sans-serif;
+ }
+
+ ::selection{
+    background-color: #0b372DBB;
+ }
+
+ .logo{
+    width: 100px;
+ }
+
+ header{
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    padding: 0.9rem 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+ }
+
+header nav{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.search a{
+    font-size: 1.05rem;
+    padding: 0 3rem;
+}
+
+.hamburger a{
+    font-size: 1.05rem;
+}
+
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.bg-img{
+    position: absolute;
+    width: 194.44%;
+    top: 1.86%;
+    left: 50.69%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.fog-7{
+    position: absolute;
+    width: 1900px;
+    top: calc(50% - 100px);
+    left: calc(50% + 300px);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.mountain-10{
+    position: absolute;
+    width: 870px;
+    top: calc(50% + 69px);
+    left: calc(50% + 230px);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.fog-6 {
+    position: absolute;
+    width: 870px;
+    top: calc(50% + 177px);
+    left: calc(50% - 30px);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.mountain-9{
+    position: absolute;
+    width: 463px;
+    top: calc(50% + 119px);
+    left: calc(50% - 457px);
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.mountain-8{
+    position: absolute;
+    width: 786px;
+    top: calc(50% + 96px);
+    left: calc(50% - 202px);
+    transform: translate(-50%, -50%);
+    z-index: 6;
+}
+
+.fog-5{
+    position: absolute;
+    width: 1435px;
+    top: calc(50% + 149px);
+    left: calc(50% - 28px);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+
+.mountain-7{
+    position: absolute;
+    width: 515px;
+    top: calc(50% + 134px);
+    left: calc(50% + 305px);
+    transform: translate(-50%, -50%);
+    z-index: 8;
+}
+
+.text{
+    position: absolute;
+    z-index: 9;
+    top:calc(50% - 130px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: auto;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text h2{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.text h1{
+    font-weight: 800;
+    font-size: 10rem;
+    line-height: 0.88;
+}
+
+.mountain-6{
+    position: absolute;
+    width: 383.5px;
+    top: calc(50% + 86.5px);
+    left: calc(50% + 590px);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.fog-4{
+    position: absolute;
+    width: 543px;
+    top: calc(50% + 242px);
+    left: calc(50% - 64px);
+    transform: translate(-50%, -50%);
+    z-index: 11;
+}
+
+.mountain-5{
+    position: absolute;
+    width: 538px;
+    top: calc(50% + 269px);
+    left: calc(50% + 130px);
+    transform: translate(-50%, -50%);
+    z-index: 12;
+}
+
+.fog-3{
+    position: absolute;
+    width: 449px;
+    top: calc(50% + 171px);
+    left: calc(50% + 29px);
+    transform: translate(-50%, -50%);
+    z-index: 7;
+}
+
+.mountain-4{
+    position: absolute;
+    width: 717px;
+    top: calc(50% + 221px);
+    left: calc(50% - 381.5px);
+    transform: translate(-50%, -50%);
+    z-index: 14;
+}
+
+.mountain-3{
+    position: absolute;
+    width: 419px;
+    top: calc(50% + 133px);
+    left: calc(50% + 736px);
+    transform: translate(-50%, -50%);
+    z-index: 15;
+}
+
+.fog-2{
+     position: absolute;
+    width: 1833px;
+    top: calc(50% + 95px);
+    left: calc(50% + 7px);
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+
+.mountain-2{
+    position: absolute;
+    width: 625px;
+    top: calc(50% + 188px);
+    left: calc(50% + 412px);
+    transform: translate(-50%, -50%);
+    z-index: 17;
+}
+
+.mountain-1{
+    position: absolute;
+    width: 850px;
+    top: calc(50% + 91.5px);
+    left: calc(50% - 750px);
+    transform: translate(-50%, -50%);
+    z-index: 18;
+}
+
+.sun-rays{
+    position: absolute;
+    z-index: 19;
+    top: 0;
+    right: 0;
+    width: 595px;
+}
+
+.black_shadow{
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.fog-1{
+    position: absolute;
+    width: 1600px;
+    top: calc(100%- 355px);
+    left: 50% ;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.vignette{
+    position: absolute;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0)65%, rgba(0, 0, 0, 0.7));
+}
+
+.parallax{
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .45s cubic-bezier(.2, .49, .32, .99);
+}
+
+@media screen and (max-width: 1100px) {
+    .text h1{
+        font-size: 5.8rem;
+    }
+    .text h2{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .text h1{
+        font-size: 5rem;
+        line-height: 1.1;
+    }
+    .text h2{
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+
+    header nav {
+        padding: 0 1rem;
+    }
+
+    .logo{
+        width: 75px;
+        padding: 0 0.9rem;
+    }
+
+
+    header ul a {
+        font-size: 0.73rem;
+        padding: 0 0.9rem;
+    }
+
+    .search a{
+        font-size: 0.85rem;
+        padding: 0 1.8rem;
+    }
+
+    .hamburger{
+        padding-left: 0.9rem;
+    }
+
+    .hamburger a{
+        font-size: .75rem;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    .text h1{
+        font-size: 3.3rem;
+    }
+    .text h2{
+        font-size: 1.5rem;
+    } 
+} 
